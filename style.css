@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(225, 225, 71);
+    color:black;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(8, 115, 160);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 23px;
+}
+nav ul li a{
+
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(221, 229, 137);
+    font-size: 1.05rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.leftbo{
+   
+    padding: 5px;
+    color: black;
+    border: 4px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.leftbt{
+    background-color:rgb(100, 189, 214) ;
+    padding: 5px;
+    color: black;
+    border: 4px solid rgb(100, 189, 214);
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+    
+}
+
+.firstSection > div{
+    width: 40%;
+}
+.leftSection{
+    font-size: 2rem;
+
+}
+.blog{
+    font-size: 1rem;
+}
+.red{
+    padding: 15px;
+    color:white;
+    border: 4px ;
+    background-color: rgb(241, 43, 89);
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.white{
+    padding: 15px;
+    color:rgb(49, 179, 244);
+    border: 4px ;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.rightSection img{
+    width: 100%;
+
+}
+.purple{
+    color: rgb(34, 136, 203);
+}
+#element{
+    color: rgb(197, 203, 113);
+}
+.contact h2{
+    margin-left: 100px;
+}
+.contact form {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.contact input, .contact textarea, .contact button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+}
+.secondSection{
+    max-width: 80%;
+    margin: auto;
+    height: 15pc;
+}
+main hr{
+    border: 0;
+    background:black;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.send{
+    margin-left: 40%;
+    padding: 15px;
+    color:white;
+    border: 2px ;
+    background-color: rgb(126, 175, 226);
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+footer {
+    background-color:rgb(8, 115, 160);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
